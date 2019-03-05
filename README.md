@@ -79,11 +79,12 @@ When soldering, make sure you have safetly glasses equipped along with having pr
 Here is a great soldering tutorial to help with those unsure.<br>
 https://www.youtube.com/watch?v=3230nCz3XQA
 
+<br>
 You can wire the sensors to the Raspberry Pi using the following charts:
 <br>
 <br>
 
-<b>HTU21D-F Temperature/Humidity Sensor (0x40).</b>
+HTU21D-F Temperature/Humidity Sensor (0x40).
 
 | Device Pin| Pi           |
 | --------- | ------------ |
@@ -94,7 +95,7 @@ You can wire the sensors to the Raspberry Pi using the following charts:
 | 5 (SCI)   | [GPIO 3]     |
 
 
-<b>1.2″ 4-Digit 7-Segment display.</b>
+1.2″ 4-Digit 7-Segment display.
 
 | Device Pin| Pi           |
 | --------- | ------------ |
@@ -105,15 +106,15 @@ You can wire the sensors to the Raspberry Pi using the following charts:
 | 5 (IO)    | [3.3v]       |
 
 
-<b>I2S 3W Class D Amplifier Breakout MAX98357.</b>
+I2S 3W Class D Amplifier Breakout MAX98357.
 
 | Device Pin                                     | Pi           |
 | ---------------------------------------------- | ------------ |
 | 1 (VIN)                                        | [5.0v]       |
 | 2 (GND)                                        | [GND]        |
-| 3 (DIN)                                        | [#21]        |
-| 4 (BCLK)                                       | [#18]        |
-| 5 (LRCLK)                                      | [#19]        |
+| 3 (DIN)                                        | [GPIO21]        |
+| 4 (BCLK)                                       | [GPIO18]        |
+| 5 (LRCLK)                                      | [GPIO19]        |
 
 
 
